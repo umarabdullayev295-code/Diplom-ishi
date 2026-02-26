@@ -1,0 +1,28 @@
+name: video_subtitle_search
+description: A new Flutter project for video transcription and subtitle search.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.8.2
+  ffmpeg_kit_flutter: ^6.0.3
+  file_picker: ^8.0.0+1
+  http: ^1.2.1
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  intl: ^0.19.0
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
